@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manhua Palace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <button id="header_btn">|||</button>
+  <h1>Manhua Palace</h1>
+  <button id="search-btn">|||</button>
+  <button id="notification-btn">|||</button>
+  <button id="profile-btn">|||</button>
+  </header>
+  
+  <div id="sidebar">
+  <a href="#"><b>Home</b></a>
+  <a href="#"><b>Libary</b></a>
+  <a href="#"><b>Genres</b></a>
+  <a href="#"><b>Settings</b></a>
+</div>
+<br>
+<div id="status-filter">
+  <h2>Status Filter</h2>
+  <details>
+    <summary>Status</summary>
+  <input type="checkbox" id="Completed">
+  <label for="Completed">Completed</label>
+  <br>
+    <input type="checkbox" id="Ongoing">
+  <label for="Ongoing">Ongoing</label>
+  <br>
+    <input type="checkbox" id="Hitas">
+  <label for="Hitas">Hitas</label>
+  <br>
+    <input type="checkbox" id="Cancelled">
+  <label for="Cancelled">Cancelled</label>
+  <br>
+  </details>
+  
+  <details id="genre-class">
+  <summary>Genere</summary>
+  
+  <button class="genre-btn" id="Fantasy-btn">○</button> Fantasy<br>
+  <button class="genre-btn" id="Action-btn">○</button> Action<br>
+  <button class="genre-btn" id="Romance-btn">○</button> Romance<br>
+</details>
+</div>
+<br>
+<main>
+ <div id="novel-list">
+   <!-- Novel 1 -->
+<div class="novel-card">
+  <h2 class="novel-title">Manhua 1</h2>
+  <hr>
+  <div class="novel-top">
+    <img class="img-placeholder"
+         src="Dark.jpg"
+         alt="Cover">
+
+    <div class="novel-info">
+    <div class="stat-box">Status: Ongoing</div>
+    <div class="stat-box">Views: 120K</div>
+    <div class="stat-box">Chapters: 256</div>
+    <div class="stat-box">Rating: ★9.5</div>
+    </div>
+    </div>
+    <div class="main-bottom">
+      <div class="genres">
+        Genres: Action, Fantasy</div>
+      <p>Description...</p>
+      <button>Start Reading</button>
+      </div>
+</div>
+
+<!-- Novel 2 -->
+<div class="novel-card">
+  <h2 class="novel-title">Manhua 2</h2>
+  <hr>
+  <div class="novel-top">
+    <img class="img-placeholder"
+         src="Dark.jpg"
+         alt="Cover">
+
+    <div class="novel-info">
+    <div class="stat-box">Status: Ongoing</div>
+    <div class="stat-box">Views: 186K</div>
+    <div class="stat-box">Chapters: 386</div>
+    <div class="stat-box">Rating: ★8.2</div>
+    </div>
+    </div>
+    <div class="main-bottom">
+      <div class="genres">
+        Genres: Action, Fantasy</div>
+      <p>Description...</p>
+      <button>Start Reading</button>
+      </div>
+</div>
+   
+   
+   
+ </div> 
+</main>
+
+
+<footer>
+    <p>© 2026 Manhua Palace</p>
+
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Privacy Policy</a>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
