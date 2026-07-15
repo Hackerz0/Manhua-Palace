@@ -2,6 +2,19 @@ header {
   display: flex;
   align-items: center;
   background-color: #333333;
+  gap:5px;
+}
+header a{
+    text-decoration:none;
+    color:white;
+}
+body{
+  background-color: #DCDCDC;
+}
+.right-buttons{
+    display:flex;
+    margin-left:auto;
+    gap:5px;
 }
 
 #header_btn{
@@ -12,7 +25,7 @@ header {
   height:30px;
   text-align: center;
   background-color: black;
-  color:white;
+  color:#DCDCDC;
 }
 h1{
   flex:1;
@@ -81,8 +94,18 @@ h1{
   display:block;
   background-color:#333333;
   color:white;
-  padding:10px;
+  padding-left:10px;
+  padding-top:1px;
+  border-radius:10px;
 }
+
+.Search{
+  display:flex;
+  margin-right:1px;
+  padding-left:14px;
+  padding-bottom:5px;
+}
+
 #Completed,
 #Ongoing,
 #Hitas,
@@ -108,6 +131,8 @@ h1{
 .novel-card{
     border:1px solid black;
     margin:10px;
+    border-radius:20px;
+    background-color: #E6E6E6;
 }
 
 .novel-title{
@@ -134,9 +159,10 @@ h1{
 
 .stat-box{
     border:1px solid gray;
-    border-radius:5px;
+    border-radius:400px;
     padding:8px;
     margin-bottom:8px;
+    margin-right:8px;
 }
 
 .genres{
@@ -173,4 +199,48 @@ footer a{
 
 footer a:hover{
     text-decoration:underline;
+}
+
+/*For details.html*/
+.manhua-details{
+  border: 1px solid black;
+}
+.details-title{
+  color:black;
+  background-color:grey ;
+  margin:auto;
+  padding:3px 0;
+  text-align: Center;
+}
+
+.manhua-details-flex{
+    display:flex;
+    border:1px solid black;
+    align-items:stretch;
+}
+
+.cover-image{
+    width:150px;
+    height:250px;
+    display:block;
+}
+
+.stats-box{
+    flex:1;
+    border:1px solid gray;
+    padding:10px;
+    margin:0;
+}
+
+.start-reading-btn,
+.library-btn{
+    display:block;
+    width:200px;
+    height:26px;
+    margin-top:10px;
+    font-size:120%;
+    background-color:silver;
+    color:black;
+    border:1px solid gray;
+    border-radius:5px;
 }

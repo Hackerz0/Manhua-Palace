@@ -10,10 +10,12 @@
 <body>
 <header>
   <button id="header_btn">|||</button>
-  <h1>Manhua Palace</h1>
+  <a href="index.html"><h1>Manhua Palace</h1></a>
+<div class="right-buttons">
   <button id="search-btn">|||</button>
   <button id="notification-btn">|||</button>
   <button id="profile-btn">|||</button>
+  </div>
   </header>
   
   <div id="sidebar">
@@ -25,6 +27,14 @@
 <br>
 <div id="status-filter">
   <h2>Status Filter</h2>
+  
+  <div class="Search">
+  <summary>Search</summary>
+  <input type="text" placeholder="Search manhua">
+  </div>
+  
+
+  
   <details>
     <summary>Status</summary>
   <input type="checkbox" id="Completed">
@@ -72,7 +82,8 @@
       <div class="genres">
         Genres: Action, Fantasy</div>
       <p>Description...</p>
-      <button>Start Reading</button>
+      <a href="details.html">
+        <button>Details</button></a>
       </div>
 </div>
 
