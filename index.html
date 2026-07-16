@@ -20,8 +20,8 @@
   
   <div id="sidebar">
   <a href="#"><b>Home</b></a>
-  <a href="#"><b>Libary</b></a>
-  <a href="#"><b>Genres</b></a>
+  <a href="#"><b>Library</b></a>
+  <a href="#"><b>Genre</b></a>
   <a href="#"><b>Settings</b></a>
 </div>
 <br>
@@ -37,22 +37,22 @@
   
   <details>
     <summary>Status</summary>
-  <input type="checkbox" id="Completed">
+  <input type="checkbox" id="Completed" class="status-checkbox">
   <label for="Completed">Completed</label>
   <br>
-    <input type="checkbox" id="Ongoing">
+    <input type="checkbox" id="Ongoing" class="status-checkbox">
   <label for="Ongoing">Ongoing</label>
   <br>
-    <input type="checkbox" id="Hitas">
+    <input type="checkbox" id="Hitas" class="status-checkbox">
   <label for="Hitas">Hitas</label>
   <br>
-    <input type="checkbox" id="Cancelled">
+    <input type="checkbox" id="Cancelled" class="status-checkbox">
   <label for="Cancelled">Cancelled</label>
   <br>
   </details>
   
   <details id="genre-class">
-  <summary>Genere</summary>
+  <summary>Genre</summary>
   
   <button class="genre-btn" id="Fantasy-btn">○</button> Fantasy<br>
   <button class="genre-btn" id="Action-btn">○</button> Action<br>
@@ -76,14 +76,16 @@
     <div class="stat-box">Views: 120K</div>
     <div class="stat-box">Chapters: 256</div>
     <div class="stat-box">Rating: ★9.5</div>
+     <div class="button-box"><a href="details.html" class="details-btn"> Details</a>
+      <a href="reader.html" class="details-btn"> Start Reading</a>
+      </div>
     </div>
     </div>
     <div class="main-bottom">
       <div class="genres">
         Genres: Action, Fantasy</div>
       <p>Description...</p>
-      <a href="details.html">
-        <button>Details</button></a>
+     
       </div>
 </div>
 
@@ -118,8 +120,7 @@
 
 
 <footer>
-    <p>© 2026 Manhua Palace</p>
-
+     <a href="index.html"><p>© 2026 Manhua Palace</p></a>
     <a href="#">About</a>
     <a href="#">Contact</a>
     <a href="#">Privacy Policy</a>
